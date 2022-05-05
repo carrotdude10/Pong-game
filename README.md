@@ -1,2 +1,2 @@
 # Pong-game
-Pong game :D
+First game in python :)
