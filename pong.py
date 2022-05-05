@@ -26,6 +26,15 @@ paddle_b.shapesize(stretch_wid = 5, stretch_len=1)
 paddle_b.penup()
 paddle_b.goto(350,0)
 
+#net
+net = turtle.Turtle()
+net.speed(0)
+net.shape("square")
+net.color("green yellow")
+net.shapesize(stretch_wid= 50, stretch_len=0.2)
+net.penup()
+net.goto(0,0)
+
 #ball
 ball = turtle.Turtle()
 ball.speed(0)
@@ -34,8 +43,8 @@ ball.color("green yellow")
 ball.shapesize(stretch_wid=1, stretch_len=1)
 ball.penup()
 ball.goto(0,0)
-ball.dx = 0.1
-ball.dy = 0.1
+ball.dx = 0.15
+ball.dy = 0.15
 
 #Pen
 pen = turtle.Turtle()
